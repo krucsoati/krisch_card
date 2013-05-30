@@ -1,0 +1,7 @@
+parameters:
+#    krisch_card_workshop.example.class: KrischCard\WorkshopBundle\Example
+
+services:
+#    krisch_card_workshop.example:
+#        class: %krisch_card_workshop.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

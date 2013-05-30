@@ -1,0 +1,6 @@
+krisch_card_workshop:
+    resource: "@KrischCardWorkshopBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
+

@@ -1,0 +1,3 @@
+krisch_card_workshop_homepage:
+    pattern:  /
+    defaults: { _controller: KrischCardWorkshopBundle:Page:index }
