@@ -22,9 +22,10 @@
                     {% block navigation %}
                         <nav>
                             <ul class="navigation">
-                                <li><a href="#">Főoldal</a></li>
-                                <li><a href="#">Rólunk</a></li>
-                                <li><a href="#">Kapcsolat</a></li>
+                                <li><a href="{{ path('krisch_card_workshop_homepage') }}">Főoldal</a></li>
+                                <li><a href="{{ path('krisch_card_workshop_description') }}">Rólunk</a></li>
+                                <li><a href="{{ path('krisch_card_workshop_contact') }}">Kapcsolat</a></li>
+                                <li><a href="{{ path('krisch_card_workshop_services') }}">Szolgáltatások</a></li>
                             </ul>
                         </nav>
                     {% endblock %}
