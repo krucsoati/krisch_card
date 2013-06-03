@@ -1,3 +1,15 @@
 krisch_card_workshop_homepage:
     pattern:  /
     defaults: { _controller: KrischCardWorkshopBundle:Page:index }
+
+krisch_card_workshop_contact:
+    pattern:  /kapcsolat
+    defaults: { _controller: KrischCardWorkshopBundle:Page:contact }
+
+krisch_card_workshop_description:
+    pattern:  /rolunk
+    defaults: { _controller: KrischCardWorkshopBundle:Page:description }
+
+krisch_card_workshop_services:
+    pattern:  /szolgaltatasok
+    defaults: { _controller: KrischCardWorkshopBundle:Page:services }
