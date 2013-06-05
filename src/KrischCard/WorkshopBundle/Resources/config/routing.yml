@@ -12,5 +12,5 @@ krisch_card_workshop_services:
 
 krisch_card_workshop_contact:
     pattern:  /kapcsolat
-    defaults: { _controller: KrischCardWorkshopBundle:Page:contat }
+    defaults: { _controller: KrischCardWorkshopBundle:Page:contact }
 
